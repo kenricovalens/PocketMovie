@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/app/src/main/res/drawable/bg_gradient_angle180.xml" value="0.1" />
+        <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/app/src/main/res/drawable/ic_baseline_favorite.xml" value="0.1" />
+        <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/app/src/main/res/layout/activity_detail_movie.xml" value="0.25" />
+        <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/app/src/main/res/layout/fragment_favorite.xml" value="0.25" />
+        <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/app/src/main/res/layout/fragment_home.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/app/src/main/res/layout/fragment_search.xml" value="0.25" />
+        <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/app/src/main/res/layout/item_movie.xml" value="0.2222222222222222" />
+        <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/core/src/main/res/drawable-v24/bg_gradient_angle270.xml" value="0.1" />
+        <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/favorite/src/main/res/layout/fragment_favorite.xml" value="0.17407407407407408" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

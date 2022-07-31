@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PocketMovie</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_favorite">Favorites</string>
+    <string name="contdesc_item_poster">Movie Poster Image</string>
+    <string name="item_movie_release_date">Release date: %1$s</string>
+    <string name="detail_movie_score">Rating: %1$.1f (%2$d)</string>
+    <string name="empty_result_try_searching_again">Empty result, try searching again</string>
+    <string name="no_movies_are_playing_right_now">No movies are playing right now.</string>
+</resources>
