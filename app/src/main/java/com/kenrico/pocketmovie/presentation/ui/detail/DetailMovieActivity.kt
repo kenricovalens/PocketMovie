@@ -31,10 +31,12 @@ class DetailMovieActivity : AppCompatActivity() {
             detailViewModel.checkFavorite(extraMovie.movieId)
 
             detailViewModel.isFavorite.observe(this) {
-                if(it) {
-                    binding.fabFavorite.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.ic_baseline_favorite))
-                } else {
-                    binding.fabFavorite.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.ic_baseline_empty_favorite))
+                if(it != null) {
+                    if(it) {
+                        binding.fabFavorite.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.ic_baseline_favorite))
+                    } else {
+                        binding.fabFavorite.setImageDrawable(ContextCompat.getDrawable(this, R.drawable.ic_baseline_empty_favorite))
+                    }
                 }
             }
 

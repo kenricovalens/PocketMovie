@@ -11,8 +11,8 @@ import javax.inject.Inject
 @HiltViewModel
 class DetailViewModel @Inject constructor(private val movieUseCase: MovieUseCase): ViewModel() {
 
-    private val _isFavorite = MutableLiveData<Boolean>()
-    val isFavorite: LiveData<Boolean> = _isFavorite
+    private val _isFavorite = MutableLiveData<Boolean?>()
+    val isFavorite: LiveData<Boolean?> = _isFavorite
 
     fun checkFavorite(movieId: Int) {
         viewModelScope.launch {
