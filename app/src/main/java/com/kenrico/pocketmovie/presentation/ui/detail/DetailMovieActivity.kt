@@ -58,10 +58,13 @@ class DetailMovieActivity : AppCompatActivity() {
             .load(extraMovie.moviePosterUrl)
             .into(binding.detailImgMoviePoster)
 
+        val movieScore = extraMovie.movieScore
+        val movieVoteCount = extraMovie.movieVoteCount
+
         binding.apply {
             detailTvMovieTitle.text = extraMovie.movieTitle
             detailTvReleaseDate.text = getString(R.string.item_movie_release_date, extraMovie.movieReleaseDate)
-            detailTvRating.text = getString(R.string.detail_movie_score, extraMovie.movieScore, extraMovie.movieVoteCount)
+            detailTvRating.text = getString(R.string.detail_movie_score, movieScore, movieVoteCount)
             detailTvOverview.text = extraMovie.movieOverview
         }
     }
