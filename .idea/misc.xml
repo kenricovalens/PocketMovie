@@ -10,11 +10,12 @@
         <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1" />
         <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/app/src/main/res/layout/activity_detail_movie.xml" value="0.25" />
         <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/app/src/main/res/layout/fragment_favorite.xml" value="0.25" />
-        <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/app/src/main/res/layout/fragment_home.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/app/src/main/res/layout/fragment_search.xml" value="0.25" />
         <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/app/src/main/res/layout/item_movie.xml" value="0.2222222222222222" />
         <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
         <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/core/src/main/res/drawable-v24/bg_gradient_angle270.xml" value="0.1" />
+        <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/core/src/main/res/layout/item_movie_shimmer.xml" value="0.2484375" />
         <entry key="..\:/Users/ken/AndroidStudioProjects/DicodingExpertAndroid/PocketMovie/favorite/src/main/res/layout/fragment_favorite.xml" value="0.17407407407407408" />
       </map>
     </option>

@@ -8,4 +8,6 @@
     <string name="detail_movie_score">Rating: %1$.1f (%2$d)</string>
     <string name="empty_result_try_searching_again">Empty result, try searching again</string>
     <string name="no_movies_are_playing_right_now">No movies are playing right now.</string>
+    <string name="contdesc_movie_poster">Movie Poster</string>
+    <string name="contdesc_add_to_favorite_button">Add to favorite button</string>
 </resources>

@@ -67,20 +67,25 @@ class SearchFragment : Fragment() {
                     when(it) {
                         is Resource.Loading -> {
                             binding.pbLoadingSearch.visibility = View.VISIBLE
+                            binding.lottieInitialSearch.visibility = View.GONE
                         }
                         is Resource.Success -> {
                             binding.pbLoadingSearch.visibility = View.GONE
+                            binding.lottieInitialSearch.visibility = View.GONE
 
                             it.data?.let { it1 -> setupSearchResult(it1) }
 
                             if(it.data?.isEmpty() == true) {
                                 binding.tvSearchEmpty.visibility = View.VISIBLE
+                                binding.lottieEmptySearch.visibility = View.VISIBLE
                             } else {
                                 binding.tvSearchEmpty.visibility = View.GONE
+                                binding.lottieEmptySearch.visibility = View.GONE
                             }
                         }
                         is Resource.Error -> {
                             binding.pbLoadingSearch.visibility = View.GONE
+                            binding.lottieInitialSearch.visibility = View.GONE
                             Toast.makeText(requireContext(), "Error searching movies", Toast.LENGTH_SHORT).show()
                         }
                     }

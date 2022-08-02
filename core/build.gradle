@@ -19,11 +19,16 @@ android {
 
         buildConfigField 'String', 'API_KEY', '"1955727a4cd8957c56f794895a4786fb"'
         buildConfigField 'String', 'REMOTE_API_URL', '"https://api.themoviedb.org/3/"'
+        buildConfigField 'String', 'DB_PASSPHRASE', '"PocketMovieDicoding-Kenrico"'
     }
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -62,10 +67,14 @@ dependencies {
     api "com.squareup.okhttp3:logging-interceptor:4.9.0"
 
     //coroutine
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.0"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.1"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1"
-    implementation "androidx.room:room-ktx:2.4.2"
+    implementation "androidx.room:room-ktx:2.4.3"
     api "androidx.lifecycle:lifecycle-livedata-ktx:2.5.0"
     api "androidx.activity:activity-ktx:1.5.0"
     api "androidx.fragment:fragment-ktx:1.5.0"
+
+    // SQLiteCipher
+    implementation "net.zetetic:android-database-sqlcipher:4.4.0"
+    implementation "androidx.sqlite:sqlite-ktx:2.2.0"
 }

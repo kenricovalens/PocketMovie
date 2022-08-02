@@ -78,8 +78,10 @@ class FavoriteFragment : Fragment() {
 
                             if(it.data?.isEmpty() == true) {
                                 binding.tvFavoriteEmpty.visibility = View.VISIBLE
+                                binding.lottieEmptyDb.visibility = View.VISIBLE
                             } else {
                                 binding.tvFavoriteEmpty.visibility = View.GONE
+                                binding.lottieEmptyDb.visibility = View.GONE
                             }
                         }
                         is Resource.Error -> {

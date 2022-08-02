@@ -13,7 +13,8 @@
         android:layout_height="400dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="@string/contdesc_movie_poster" />
 
     <TextView
         android:id="@+id/detail_tv_movie_title"
@@ -34,7 +35,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/detail_tv_movie_title"
         app:layout_constraintStart_toStartOf="@id/detail_img_movie_poster"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         tools:text="Released: 25/6/22"/>
 
     <TextView
@@ -61,9 +62,10 @@
         android:id="@+id/fab_favorite"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/detail_img_movie_poster"
+        app:layout_constraintTop_toBottomOf="@id/detail_tv_movie_title"
         app:layout_constraintBottom_toTopOf="@id/detail_tv_overview"
         app:layout_constraintEnd_toEndOf="@id/detail_img_movie_poster"
-        android:src="@drawable/ic_baseline_empty_favorite"/>
+        android:src="@drawable/ic_baseline_empty_favorite"
+        android:contentDescription="@string/contdesc_add_to_favorite_button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
