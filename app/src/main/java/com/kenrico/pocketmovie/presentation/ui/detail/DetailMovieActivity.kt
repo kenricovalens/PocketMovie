@@ -58,13 +58,18 @@ class DetailMovieActivity : AppCompatActivity() {
             .load(extraMovie.moviePosterUrl)
             .into(binding.detailImgMoviePoster)
 
-        val movieScore = extraMovie.movieScore
-        val movieVoteCount = extraMovie.movieVoteCount
+        /*
+        NOTE: Gradle bug fix when formatting string from strings.xml.
+
+        If you use from data class directly, then it will return lint error <ErrorType>
+         */
+        val movieScore: Double = extraMovie.movieScore
+        val movieVoteCount: Int = extraMovie.movieVoteCount
 
         binding.apply {
             detailTvMovieTitle.text = extraMovie.movieTitle
             detailTvReleaseDate.text = getString(R.string.item_movie_release_date, extraMovie.movieReleaseDate)
-            detailTvRating.text = getString(R.string.detail_movie_score, movieScore, movieVoteCount)
+            detailTvRating.text = resources.getString(R.string.detail_movie_score, movieScore, movieVoteCount)
             detailTvOverview.text = extraMovie.movieOverview
         }
     }
