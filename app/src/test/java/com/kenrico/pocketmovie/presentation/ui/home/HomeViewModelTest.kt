@@ -6,11 +6,10 @@ import com.kenrico.pocketmovie.FakeApiService
 import com.kenrico.pocketmoviecore.data.MovieRepository
 import com.kenrico.pocketmoviecore.data.Resource
 import com.kenrico.pocketmoviecore.data.source.local.room.MovieDao
-import com.kenrico.pocketmoviecore.data.source.local.room.MovieDatabase
-import com.kenrico.pocketmoviecore.data.source.remote.network.ApiService
 import com.kenrico.pocketmoviecore.domain.model.Movie
 import com.kenrico.pocketmoviecore.domain.usecase.MovieInteractor
-import org.junit.Assert.*
+import org.junit.Assert.assertNotNull
+import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
